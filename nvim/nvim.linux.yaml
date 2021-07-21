@@ -1,0 +1,12 @@
+name: nvim-install
+description: simple command for nvim installation
+schemaVersion: 1.0
+
+phases:
+  - name: build
+    steps:
+      - name: InstallNvim
+        action: ExecuteBash
+        inputs:
+          command:
+            - sudo snap install nvim --classic
