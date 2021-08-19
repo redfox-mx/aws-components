@@ -3,6 +3,8 @@ Here you can see some custom ImageBuilder components for aws, all based on my cl
 
 ## Components
 
-- [__nvm-install__](./nvm-install)
-
-This component install custom version of nvm across base linux OS (Ubuntu, Amazon Linux)
+| component | description |
+| ---- | --- |
+| [nvm](./nvm) | This component install custom version of nvm across base linux OS (Ubuntu, Amazon Linux) |
+| [__nvim__](./nvim) | Install nvim from snap in ubuntu base images |
+| [__zsh__](./zsh) | Downloads and install zsh and Oh my zsh | 
